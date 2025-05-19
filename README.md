@@ -1,7 +1,9 @@
 # Instalação
 npx create-expo-app --template
 
-# Paths
+# Estrutura da aplicação
+
+## paths
 "paths": {
     "@dtos/*": ["./src/dtos/*"],
     "@assets/*": ["./src/assets/*"],
@@ -14,3 +16,6 @@ npx create-expo-app --template
     "@contexts/*": ["./src/contexts/*"],
     "@routes/*": ["./src/routes/*"]
 }
+
+## Fonts
+npx expo install expo-font @expo-google-fonts/roboto
